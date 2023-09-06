@@ -19,7 +19,9 @@ module.exports = {
       fontFamily: {
         raleway: ['var(--font-raleway)'],
       },
-      fontSize: '0.875rem',
+      fontSize: {
+        body: '0.875rem',
+      },
       backgroundImage: {
         mobile: ['url(./images/bg-mobile.png)'],
         desktop: ['url(./images/bg-desktop.png)'],
